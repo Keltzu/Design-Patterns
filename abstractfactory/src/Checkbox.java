@@ -1,0 +1,12 @@
+public abstract class Checkbox extends UIElement {
+    protected boolean checked;
+
+    public Checkbox(String text) {
+        super(text);
+        this.checked = false;
+    }
+
+    public void toggle() {
+        checked = !checked;
+    }
+}
